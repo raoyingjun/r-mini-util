@@ -1,15 +1,21 @@
 {
-  "name": "r-util",
-  "version": "1.0.0",
-  "description": "RUtil 是一个前端工具集合，包含了许多方法以供使用",
-  "main": "index.js",
+  "name": "r-mini-util",
+  "version": "1.0.5",
+  "description": "r-mini-util 是一个前端工具集，封装了许多常用方法以供使用",
+  "main": "./dist/index.js",
+  "module": "./src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve --mode=development ",
     "build": "webpack --mode=production"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "javascript",
+    "frond-end",
+    "util",
+    "tool"
+  ],
+  "author": "Royin Rao",
   "license": "ISC",
   "devDependencies": {
     "html-webpack-plugin": "^5.5.3",
