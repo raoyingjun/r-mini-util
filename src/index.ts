@@ -1,3 +1,8 @@
-import * as rUtil from './util'
-console.log('dsada')
-window.rUtil = rUtil
+import { RUtil } from './schame'
+import * as util from './util'
+
+const rUtil: RUtil = util
+
+export * from './util'
+export default rUtil
+

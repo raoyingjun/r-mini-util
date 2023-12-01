@@ -1,6 +1,5 @@
-export {}
-declare global{
-    interface Window {
-        rUtil: any
-    }
+type RUtil = Record<string, any>
+
+export {
+    RUtil
 }
