@@ -1,0 +1,16 @@
+{
+  "name": "r-util",
+  "version": "1.0.0",
+  "description": "RUtil 是一个前端工具集合，包含了许多方法以供使用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.2",
+    "vite": "^5.0.4"
+  }
+}
