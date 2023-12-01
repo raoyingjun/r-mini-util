@@ -1,0 +1,16 @@
+{
+  "name": "tset-pkg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "r-mini-util": "^1.0.2",
+    "vite": "^5.0.4"
+  }
+}
