@@ -1,0 +1,11 @@
+declare function randomNum(min: number, max: number): number;
+declare function randomHexColor(prefix?: boolean): string;
+declare function shuffleArray(arr: number[]): void;
+type BasicType = 'Object' | 'Array' | 'Function' | 'Symbol' | 'String' | 'Number' | 'Boolean';
+declare function is(type: BasicType, o: any): boolean;
+declare function isFunction(o: any): boolean;
+declare function isArray(o: any): boolean;
+declare function isObject(o: any): boolean;
+declare function isEmptyObject(o: any): boolean;
+declare function debounce(fn: () => unknown, threshold?: number): () => void;
+export { randomNum, randomHexColor, is, isObject, isArray, isFunction, isEmptyObject, shuffleArray, debounce, };
