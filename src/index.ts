@@ -28,3 +28,20 @@ export {
     debounce,
 }
 
+const rMiniUtil = {
+    randomNum,
+    randomHexColor,
+
+    is,
+    isObject,
+    isArray,
+    isFunction,
+    isEmptyObject,
+
+    shuffleArray,
+
+    debounce,
+}
+
+export default rMiniUtil
+

@@ -1,13 +1,12 @@
 {
   "name": "r-mini-util",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "r-mini-util 是一个前端工具集，封装了许多常用方法以供使用",
   "main": "./dist/lib/index.js",
   "types": "./types/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve --mode=development ",
-    "build": "webpack --mode=production && webpack --mode=production --env esm"
+    "build": "webpack --mode=production & webpack --mode=production --env esm"
   },
   "keywords": [
     "javascript",
