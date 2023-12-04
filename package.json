@@ -1,6 +1,6 @@
 {
   "name": "r-mini-util",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "r-mini-util 是一个前端工具集，封装了许多常用方法以供使用",
   "main": "./dist/lib/index.js",
   "types": "./types/index.d.ts",

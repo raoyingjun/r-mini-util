@@ -21,7 +21,7 @@ function shuffleArray(arr: number[]) {
 type BasicType = 'Object' | 'Array' | 'Function' | 'Symbol' | 'String' | 'Number' | 'Boolean'
 
 function is(type: BasicType, o: any) {
-    return Object.prototype.toString.call(o).includes(o)
+    return Object.prototype.toString.call(o).includes(type)
 }
 
 function isFunction(o: any) {
