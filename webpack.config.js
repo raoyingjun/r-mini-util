@@ -2,7 +2,6 @@ const path = require("path");
 
 module.exports = (env, args) => {
   const { mode } = args;
-  const isProd = mode === "production";
 
   return {
     entry: "./src/index.ts",

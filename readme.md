@@ -6,26 +6,21 @@ r-mini-util 是一个前端工具集，封装了许多常用方法以供使用�
 为开发提供了极佳的便利性！
 
 ### 如何使用？
-使用 ES Module 方式：
+当你使用 webpakc 或 vite作为构建，你可以使用 ESM 特性：
 ```javascript
 import {randomNum} from 'RMiniUtil'
-
 randomNum(5, 10)
-```
-or
-```javascript
 
+// 或者
 import * as rMiniUtil from 'RMiniUtil'
-
 rMiniUtil.randomNum(5, 10)
 ```
-全局变量方式访问：
+
+以全局变量方式访问：
 ```javascript
-// var rMiniUtil = {/* Source Code */}
-rMiniUtil.sst()
+// rMiniUtil 被设置在 window.rMiniUtil
+rMiniUtil.randomNum(5, 10)
 ```
 
-### 完整 Demo 项目 
 
-你可以访问同目录下的 usage-demo，一个基于 vite 的 demo。其中演示了导入和使用 r-mini-util 的方式。
 
